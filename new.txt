@@ -57,3 +57,6 @@ device = 5
 plugin_name = "cuckatoo_mean_cuda_rtx_31"
 [mining.miner_plugin_config.parameters]
 device = 6 
+
+
+https://www.bminercontent.com/releases/bminer-v15.5.3-747d98e-amd64.tar.xz
