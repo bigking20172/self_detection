@@ -1,1 +1,59 @@
-jkasdjkasd
+[logging]
+log_to_stdout = true
+stdout_log_level = "Debug"
+log_to_file = false
+file_log_level = "DEBUG"
+log_file_path = ""
+log_file_append = false
+
+[mining]
+run_tui = false
+stratum_server_addr = "grin.sparkpool.com:6667"
+stratum_server_login = "492127285jin@163.com"
+stratum_server_tls_enabled = false
+miner_plugin_dir = "plugins"
+
+[[mining.miner_plugin_config]]
+plugin_name = "cuckatoo_mean_cuda_rtx_31"
+[mining.miner_plugin_config.parameters]
+device = 0 
+expand = 2 
+cpuload = 1 
+ntrims = 176 
+genablocks = 4096
+genatpb = 128 
+genbtpb = 128 
+trimtpb = 512 
+tailtpb = 1024
+recoverblocks = 1024
+recovertpb = 1024
+
+[[mining.miner_plugin_config]]
+plugin_name = "cuckatoo_mean_cuda_rtx_31"
+[mining.miner_plugin_config.parameters]
+device = 1 
+
+[[mining.miner_plugin_config]]
+plugin_name = "cuckatoo_mean_cuda_rtx_31"
+[mining.miner_plugin_config.parameters]
+device = 2
+
+[[mining.miner_plugin_config]]
+plugin_name = "cuckatoo_mean_cuda_rtx_31"
+[mining.miner_plugin_config.parameters]
+device = 3 
+
+[[mining.miner_plugin_config]]
+plugin_name = "cuckatoo_mean_cuda_rtx_31"
+[mining.miner_plugin_config.parameters]
+device = 4 
+
+[[mining.miner_plugin_config]]
+plugin_name = "cuckatoo_mean_cuda_rtx_31"
+[mining.miner_plugin_config.parameters]
+device = 5 
+
+[[mining.miner_plugin_config]]
+plugin_name = "cuckatoo_mean_cuda_rtx_31"
+[mining.miner_plugin_config.parameters]
+device = 6 
